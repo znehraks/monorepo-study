@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Card } from "ui";
+import { Card, Button } from "ui";
 import styles from "./page.module.css";
 
 function Gradient({
@@ -63,6 +63,7 @@ export default function Page(): JSX.Element {
             rel="noopener noreferrer"
             target="_blank"
           >
+            <Button />
             By{" "}
             <Image
               alt="Vercel Logo"
